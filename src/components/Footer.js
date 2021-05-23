@@ -1,6 +1,11 @@
 function Footer() {
   return (
-    <div className='flex flex-col' onclick='window.scrollTo(0, 0)'>
+    <div
+      className='flex flex-col'
+      onClick={() => {
+        window.scrollTo(0, 0);
+      }}
+    >
       {/*Footer bar one*/}
       <div className='bg-amazon_blue-lighter text-sm p-3 w-full flex justify-center'>
         <p className='link text-gray-300'>Back to top</p>
